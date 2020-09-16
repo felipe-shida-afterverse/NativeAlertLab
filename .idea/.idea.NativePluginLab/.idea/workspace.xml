@@ -8,13 +8,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Android/ToastSender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/AlertSender.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Plugins/iOS/NativeDialog.mm" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Android/ToastSender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/iOS/iOSNativeAlert.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidToastSender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/AlertSender.cs" />
       </list>
     </option>
   </component>
@@ -67,7 +70,7 @@
       <workItem from="1600266894443" duration="32000" />
       <workItem from="1600266942437" duration="737000" />
       <workItem from="1600267761981" duration="239000" />
-      <workItem from="1600268293539" duration="2743000" />
+      <workItem from="1600268293539" duration="3770000" />
     </task>
     <servers />
   </component>
