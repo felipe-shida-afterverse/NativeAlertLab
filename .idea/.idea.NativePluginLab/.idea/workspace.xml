@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07dfb3cf-d060-4223-a10e-8695cd203180" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NativePluginLab/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AlertSender.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AlertSender.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidToastSender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidToastSender.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +41,15 @@
         <option value="$PROJECT_DIR$/Assets/Plugins/iOS/NativeDialog.mm" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Android/ToastSender.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/iOS/iOSNativeAlert.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidToastSender.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/AlertSender.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidBundleVersionCode.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/iOS/iOSBuildNumber.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/iOS/iOSBundleVersionCode.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/iOS/IOSBundleVersionCode.cs" />
         <option value="$PROJECT_DIR$/Assets/BundleVersionDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/NativeDialog.kt" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/NativeDialogInterface.java" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidToastSender.cs" />
       </list>
     </option>
   </component>
@@ -65,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,6 +72,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -109,7 +108,8 @@
       <workItem from="1600266942437" duration="737000" />
       <workItem from="1600267761981" duration="239000" />
       <workItem from="1600268293539" duration="4369000" />
-      <workItem from="1600361472041" duration="2547000" />
+      <workItem from="1600361472041" duration="3669000" />
+      <workItem from="1600374886777" duration="2066000" />
     </task>
     <servers />
   </component>
@@ -128,8 +128,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1451" y="230" key="SettingsEditor" timestamp="1600375161691">
+      <screen x="-1920" y="63" width="1920" height="1057" />
+    </state>
+    <state x="-1451" y="230" key="SettingsEditor/-1920.63.1920.1057/0.23.1792.1097@-1920.63.1920.1057" timestamp="1600375161691" />
   </component>
 </project>

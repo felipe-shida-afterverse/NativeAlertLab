@@ -6,7 +6,7 @@ namespace Plugins.Android
 {
     public class AndroidToastSender
     {
-        private const string UNITY_PLAYER_CLASS_PACKAGE = "com.unity3d.player.UnityPlayer";
+        private const string UNITY_PLAYER_CLASS_PACKAGE = "com.example.test.NativeDialogInterface";
 
         AndroidJavaObject currentActivity;
         private string toastString;
@@ -20,11 +20,16 @@ namespace Plugins.Android
 
         public IEnumerator RunToastOnUIThreadAndroid()
         {
-            AndroidJavaClass UnityPlayer = new AndroidJavaClass(UNITY_PLAYER_CLASS_PACKAGE);
+            AndroidJavaClass plugin = new AndroidJavaClass(UNITY_PLAYER_CLASS_PACKAGE);
+            
+            AndroidJavaClass playerClass = new AndroidJavaClass ("com.unity3d.player.UnityPlayer");
+            AndroidJavaObject currentActivityObject = playerClass.GetStatic<AndroidJavaObject> ("currentActivity");
+            
+            plugin.CallStatic("displayDialog", currentActivityObject, toastString);
 
-            currentActivity = UnityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+            //currentActivity = UnityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
 
-            currentActivity.Call("runOnUiThread", new AndroidJavaRunnable(ShowToast));
+            //currentActivity.Call("runOnUiThread", new AndroidJavaRunnable(ShowToast));
 
             yield return null;
         }
